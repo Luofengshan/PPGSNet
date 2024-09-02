@@ -11,10 +11,12 @@
   * scipy
   * matplotlib
   * einops
-  * addict
+  * addict<br>
 You also can run the following command to configure the required environment
 ```bash
 pip install -r requirement.txt
+```
+
 
 # Train
 # Test
