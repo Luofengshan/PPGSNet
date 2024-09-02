@@ -1,4 +1,4 @@
-# This is the official implementation of《Progressive Prototype-Guided Segmentation Network for Building Extraction from High Resolution Remote Sensing Images》
+# Code for《Progressive Prototype-Guided Segmentation Network for Building Extraction from High Resolution Remote Sensing Images》
 # Dependencies
   * python==3.9.0
   * timm
@@ -20,10 +20,12 @@ pip install -r requirement.txt
 
 
 # Train
+To train the PPGSNet model, perform the following command:
 ```bash
 python code/train.py -c config/whubuilding/model_v3.py
 ```
 # Test
+To test the PPGSNet model, perform the following command:
 ```bash
 python code/test.py -c config/whubuilding/model_v3.py -o test_results/whubuilding/model_v3/ --rgb
 ```
